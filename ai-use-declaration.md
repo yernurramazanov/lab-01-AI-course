@@ -1,4 +1,4 @@
-\# AI Use Declaration
+﻿# AI Use Declaration
 
 
 
@@ -8,15 +8,15 @@ For this laboratory work, I used ChatGPT as an assistant.
 
 I used ChatGPT to:
 
-\- understand the laboratory instructions and the required submission format;
+- understand the laboratory instructions and the required submission format;
 
-\- guide me through setting up and running the provided Python scripts;
+- guide me through setting up and running the provided Python scripts;
 
-\- help create additional parallel EN/RU/KK corpus examples for the Core tasks;
+- help create additional parallel EN/RU/KK corpus examples for the Core tasks;
 
-\- help interpret the measured token counts and cost results;
+- help interpret the measured token counts and cost results;
 
-\- help structure and edit the final report.
+- help structure and edit the final report.
 
 
 
@@ -25,4 +25,5 @@ All token measurements and API results used in the report were obtained by runni
 
 
 I reviewed the generated text and the measured results before including them in the submission.
+
 

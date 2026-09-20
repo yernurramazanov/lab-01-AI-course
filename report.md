@@ -1,8 +1,8 @@
-\# Lab 01 — The Price of One Request
+# Lab 01 — The Price of One Request
 
 
 
-\## 1. Part 1 Prediction vs. Measured Value
+## 1. Part 1 Prediction vs. Measured Value
 
 
 
@@ -24,7 +24,7 @@ The measured complaint token counts were 92 tokens for English, 134 for Russian,
 
 
 
-\## 2. Annual Cost
+## 2. Annual Cost
 
 
 
@@ -50,7 +50,7 @@ For Opus 5, Kazakh input used 2.19x as many tokens as English, while the total a
 
 
 
-\## 3. Production Model for a Kazakh Support Queue
+## 3. Production Model for a Kazakh Support Queue
 
 
 
@@ -62,7 +62,7 @@ The cost difference is significant: using the models' measured answers at 5,000 
 
 
 
-\## 4. Cost-Reduction Lever
+## 4. Cost-Reduction Lever
 
 
 

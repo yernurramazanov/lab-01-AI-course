@@ -1,0 +1,60 @@
+{
+  "model": "opus-5",
+  "model_id": "claude-opus-5",
+  "token_counts": {
+    "sentence": {
+      "en": 26,
+      "ru": 35,
+      "kk": 48
+    },
+    "complaint": {
+      "en": 92,
+      "ru": 134,
+      "kk": 198
+    },
+    "system_prompt": {
+      "en": 58,
+      "ru": 80,
+      "kk": 124
+    },
+    "my_request": {
+      "en": 64,
+      "ru": 90,
+      "kk": 123
+    },
+    "kazakh_shared_letters": {
+      "en": 45,
+      "ru": 45,
+      "kk": 45
+    },
+    "kazakh_specific_letters": {
+      "en": 50,
+      "ru": 50,
+      "kk": 50
+    },
+    "complaint_json": {
+      "en": 120,
+      "ru": 162,
+      "kk": 226
+    }
+  },
+  "request_tokens": {
+    "en": 145,
+    "ru": 209,
+    "kk": 317
+  },
+  "one_request_billed": {
+    "en": {
+      "input_tokens": 145,
+      "output_tokens": 1044
+    },
+    "ru": {
+      "input_tokens": 209,
+      "output_tokens": 1068
+    },
+    "kk": {
+      "input_tokens": 317,
+      "output_tokens": 1334
+    }
+  }
+}

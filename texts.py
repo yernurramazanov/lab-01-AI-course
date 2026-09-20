@@ -69,9 +69,67 @@ SYSTEM_PROMPT: Dict[str, str] = {
     ),
 }
 
+MY_REQUEST: Dict[str, str] = {
+    "en": (
+        "Hello. I made a bank transfer yesterday, but the recipient has not "
+        "received the money yet. The amount was deducted from my account. "
+        "Please check the transfer status and explain what I should do next."
+    ),
+    "ru": (
+        "Здравствуйте. Вчера я сделал банковский перевод, но получатель до сих "
+        "пор не получил деньги. Сумма была списана с моего счёта. Пожалуйста, "
+        "проверьте статус перевода и объясните, что мне делать дальше."
+    ),
+    "kk": (
+        "Сәлеметсіз бе. Кеше мен банктік аударым жасадым, бірақ алушы әлі күнге "
+        "дейін ақшаны алған жоқ. Сома менің шотымнан есептен шығарылды. "
+        "Аударымның мәртебесін тексеріп, әрі қарай не істеу керектігін түсіндіріңіз."
+    ),
+}
+
+KAZAKH_SHARED_LETTERS: Dict[str, str] = {
+    "en": "Мен банкке барып, депозит туралы менеджерден жауап алдым, сосын шартпен таныстым.",
+    "ru": "Мен банкке барып, депозит туралы менеджерден жауап алдым, сосын шартпен таныстым.",
+    "kk": "Мен банкке барып, депозит туралы менеджерден жауап алдым, сосын шартпен таныстым.",
+}
+
+KAZAKH_SPECIFIC_LETTERS: Dict[str, str] = {
+    "en": "Әлия бүгін құжаттағы пайыздық мөлшерлеменің өзгергенін нақты түсіндірді.",
+    "ru": "Әлия бүгін құжаттағы пайыздық мөлшерлеменің өзгергенін нақты түсіндірді.",
+    "kk": "Әлия бүгін құжаттағы пайыздық мөлшерлеменің өзгергенін нақты түсіндірді.",
+}
+
+COMPLAINT_JSON: Dict[str, str] = {
+    "en": (
+        '{"greeting":"Good afternoon.",'
+        '"situation":"I opened a deposit at your branch in March and was told the rate was fixed for twelve months.",'
+        '"problem":"In August the rate on my account dropped without any notice.",'
+        '"attachments":"I have attached the contract and the statement.",'
+        '"request":"Please explain on what basis the rate was changed and restore the original terms."}'
+    ),
+    "ru": (
+        '{"greeting":"Добрый день.",'
+        '"situation":"Я открыл депозит в вашем отделении в марте, и мне сказали, что ставка зафиксирована на двенадцать месяцев.",'
+        '"problem":"В августе ставка по моему счёту снизилась без какого-либо уведомления.",'
+        '"attachments":"Прилагаю договор и выписку.",'
+        '"request":"Прошу объяснить, на каком основании была изменена ставка, и восстановить первоначальные условия."}'
+    ),
+    "kk": (
+        '{"greeting":"Қайырлы күн.",'
+        '"situation":"Мен наурыз айында сіздің бөлімшеңізде депозит аштым, маған мөлшерлеме он екі айға бекітілген деп айтылды.",'
+        '"problem":"Тамыз айында менің шотымдағы мөлшерлеме ешқандай хабарламасыз төмендеді.",'
+        '"attachments":"Шартты және үзінді көшірмені қоса тіркеп отырмын.",'
+        '"request":"Мөлшерлеме қандай негізде өзгертілгенін түсіндіріп, бастапқы шарттарды қалпына келтіруіңізді сұраймын."}'
+    ),
+}
+
 #: Everything the lab measures, keyed by a short id.
 CORPUS: Dict[str, Dict[str, str]] = {
     "sentence": SENTENCE,
     "complaint": COMPLAINT,
     "system_prompt": SYSTEM_PROMPT,
+    "my_request": MY_REQUEST,
+    "kazakh_shared_letters": KAZAKH_SHARED_LETTERS,
+    "kazakh_specific_letters": KAZAKH_SPECIFIC_LETTERS,
+    "complaint_json": COMPLAINT_JSON,
 }
